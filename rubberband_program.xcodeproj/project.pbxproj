@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920764DA1B4B2D1A0037F632 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 920764D91B4B2D1A0037F632 /* main.cpp */; };
+		920764E31B4B2EA60037F632 /* librubberband.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 920764E01B4B2E920037F632 /* librubberband.dylib */; };
+		920764EC1B4B2F030037F632 /* libsndfile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 920764E91B4B2EFB0037F632 /* libsndfile.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		920764DF1B4B2E920037F632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920764DB1B4B2E920037F632 /* rubberband_library.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9207641C1B4B1E840037F632;
+			remoteInfo = rubberband;
+		};
+		920764E11B4B2EA30037F632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920764DB1B4B2E920037F632 /* rubberband_library.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9207641B1B4B1E840037F632;
+			remoteInfo = rubberband;
+		};
+		920764E81B4B2EFB0037F632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920764E41B4B2EFB0037F632 /* sndfile.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 923D8DF11B42121A006CF303;
+			remoteInfo = sndfile;
+		};
+		920764EA1B4B2F000037F632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920764E41B4B2EFB0037F632 /* sndfile.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 923D8DF01B42121A006CF303;
+			remoteInfo = sndfile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		920764CD1B4B2BC70037F632 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		920764CF1B4B2BC70037F632 /* rubberband */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rubberband; sourceTree = BUILT_PRODUCTS_DIR; };
+		920764D91B4B2D1A0037F632 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = main/main.cpp; sourceTree = SOURCE_ROOT; };
+		920764DB1B4B2E920037F632 /* rubberband_library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = rubberband_library.xcodeproj; sourceTree = "<group>"; };
+		920764E41B4B2EFB0037F632 /* sndfile.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sndfile.xcodeproj; path = ../libsndfile/sndfile.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		920764CC1B4B2BC70037F632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920764EC1B4B2F030037F632 /* libsndfile.dylib in Frameworks */,
+				920764E31B4B2EA60037F632 /* librubberband.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		920764C61B4B2BC70037F632 = {
+			isa = PBXGroup;
+			children = (
+				920764E41B4B2EFB0037F632 /* sndfile.xcodeproj */,
+				920764DB1B4B2E920037F632 /* rubberband_library.xcodeproj */,
+				920764D11B4B2BC70037F632 /* rubberband */,
+				920764D01B4B2BC70037F632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		920764D01B4B2BC70037F632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920764CF1B4B2BC70037F632 /* rubberband */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		920764D11B4B2BC70037F632 /* rubberband */ = {
+			isa = PBXGroup;
+			children = (
+				920764D91B4B2D1A0037F632 /* main.cpp */,
+			);
+			name = rubberband;
+			path = rubberband_program;
+			sourceTree = "<group>";
+		};
+		920764DC1B4B2E920037F632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920764E01B4B2E920037F632 /* librubberband.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		920764E51B4B2EFB0037F632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920764E91B4B2EFB0037F632 /* libsndfile.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		920764CE1B4B2BC70037F632 /* rubberband */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920764D61B4B2BC70037F632 /* Build configuration list for PBXNativeTarget "rubberband" */;
+			buildPhases = (
+				920764CB1B4B2BC70037F632 /* Sources */,
+				920764CC1B4B2BC70037F632 /* Frameworks */,
+				920764CD1B4B2BC70037F632 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				920764EB1B4B2F000037F632 /* PBXTargetDependency */,
+				920764E21B4B2EA30037F632 /* PBXTargetDependency */,
+			);
+			name = rubberband;
+			productName = rubberband_program;
+			productReference = 920764CF1B4B2BC70037F632 /* rubberband */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		920764C71B4B2BC70037F632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = breakfastquay;
+				TargetAttributes = {
+					920764CE1B4B2BC70037F632 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 920764CA1B4B2BC70037F632 /* Build configuration list for PBXProject "rubberband_program" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 920764C61B4B2BC70037F632;
+			productRefGroup = 920764D01B4B2BC70037F632 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 920764DC1B4B2E920037F632 /* Products */;
+					ProjectRef = 920764DB1B4B2E920037F632 /* rubberband_library.xcodeproj */;
+				},
+				{
+					ProductGroup = 920764E51B4B2EFB0037F632 /* Products */;
+					ProjectRef = 920764E41B4B2EFB0037F632 /* sndfile.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				920764CE1B4B2BC70037F632 /* rubberband */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		920764E01B4B2E920037F632 /* librubberband.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = librubberband.dylib;
+			remoteRef = 920764DF1B4B2E920037F632 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		920764E91B4B2EFB0037F632 /* libsndfile.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libsndfile.dylib;
+			remoteRef = 920764E81B4B2EFB0037F632 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		920764CB1B4B2BC70037F632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920764DA1B4B2D1A0037F632 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		920764E21B4B2EA30037F632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = rubberband;
+			targetProxy = 920764E11B4B2EA30037F632 /* PBXContainerItemProxy */;
+		};
+		920764EB1B4B2F000037F632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sndfile;
+			targetProxy = 920764EA1B4B2F000037F632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		920764D41B4B2BC70037F632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		920764D51B4B2BC70037F632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		920764D71B4B2BC70037F632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)",
+					"$(SRCROOT)/src",
+					"$(SRCROOT)/../libsndfile-exports/osx/include",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		920764D81B4B2BC70037F632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)",
+					"$(SRCROOT)/src",
+					"$(SRCROOT)/../libsndfile-exports/osx/include",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		920764CA1B4B2BC70037F632 /* Build configuration list for PBXProject "rubberband_program" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920764D41B4B2BC70037F632 /* Debug */,
+				920764D51B4B2BC70037F632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920764D61B4B2BC70037F632 /* Build configuration list for PBXNativeTarget "rubberband" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920764D71B4B2BC70037F632 /* Debug */,
+				920764D81B4B2BC70037F632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 920764C71B4B2BC70037F632 /* Project object */;
+}
