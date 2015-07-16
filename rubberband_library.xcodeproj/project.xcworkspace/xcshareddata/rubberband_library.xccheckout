@@ -12,6 +12,8 @@
 	<dict>
 		<key>15E78EC076E858357FEEAF8289753B703A781E65</key>
 		<string>github.com:G-P-S/rubberband.git</string>
+		<key>AC3E58AC81FA5B21834DDAD00CE4F0D2F0BD5D35</key>
+		<string>github.com:G-P-S/rubberband-exports.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>rubberband_library.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>15E78EC076E858357FEEAF8289753B703A781E65</key>
 		<string>../..</string>
+		<key>AC3E58AC81FA5B21834DDAD00CE4F0D2F0BD5D35</key>
+		<string>../..-exports/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:G-P-S/rubberband.git</string>
@@ -35,6 +39,14 @@
 			<string>15E78EC076E858357FEEAF8289753B703A781E65</string>
 			<key>IDESourceControlWCCName</key>
 			<string>rubberband</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC3E58AC81FA5B21834DDAD00CE4F0D2F0BD5D35</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rubberband-exports</string>
 		</dict>
 	</array>
 </dict>
